@@ -5,7 +5,7 @@
 
 Here are some ideas to get you started:
 -->
-- 👁️‍🗨️ Im looking for a job atm.
+- 👁️‍🗨️ Im looking for a job at this moment.
 - 🔭 I’m currently working on HTML, CSS, JS
 - 🌱 I’m currently learning ReactJS, VueJS and Typescript
 - 👯 I’m looking to collaborate on interesting projects of any kind.
