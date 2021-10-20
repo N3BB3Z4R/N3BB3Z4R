@@ -10,7 +10,7 @@ Here are some ideas to get you started:
 - 🌱 I’m currently learning ReactJS, VueJS and Typescript
 - 💬 Ask me about Graphic Design, UI/UX, 2D, 3D, Video, VFX or any other kind.
 - 👯 I’m looking to collaborate on interesting projects of any kind.
-- 🤔 I’m looking for help with finding a job in Front-End Dev.
+- 🤔 I’m looking for help with finding a job as Front-End Dev.
 - 📫 How to reach me on my Discord: https://discord.gg/YdAPYgSq
 - ⚡ Fun fact: I make music sometimes.
 
