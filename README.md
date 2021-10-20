@@ -15,5 +15,5 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: I make music sometimes.
 
 
-[![Óscar Abad's GitHub stats](https://github-readme-stats.vercel.app/api?username=N3BB3Z4R&show_icons=true&theme=onedark)]
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=N3BB3Z4R&layout=compact)]
+![Óscar Abad's GitHub stats](https://github-readme-stats.vercel.app/api?username=N3BB3Z4R&show_icons=true&theme=onedark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=N3BB3Z4R&layout=compact&theme=onedark)
