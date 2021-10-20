@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 📫 How to reach me on my Discord: https://discord.gg/YdAPYgSq
 - ⚡ Fun fact: I make music sometimes.
 
-Check my works at https://www.nebeworks.com
+Check my other works at https://www.nebeworks.com
 
 ![Óscar Abad's GitHub stats](https://github-readme-stats.vercel.app/api?username=N3BB3Z4R&show_icons=true&theme=onedark&count_private=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=N3BB3Z4R&layout=compact&theme=onedark)
