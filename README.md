@@ -5,9 +5,6 @@
 
 Here are some ideas to get you started:
 -->
-![Óscar Abad's GitHub stats](https://github-readme-stats.vercel.app/api?username=N3BB3Z4R&show_icons=true&theme=onedark&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=N3BB3Z4R&layout=compact&theme=onedark)
-
 - 🔭 I’m currently working on HTML, CSS, JS
 - 🌱 I’m currently learning ReactJS, VueJS and Typescript
 - 👯 I’m looking to collaborate on interesting projects of any kind.
@@ -17,3 +14,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: I make music sometimes.
 
 Check my works at https://www.nebeworks.com
+
+![Óscar Abad's GitHub stats](https://github-readme-stats.vercel.app/api?username=N3BB3Z4R&show_icons=true&theme=onedark&count_private=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=N3BB3Z4R&layout=compact&theme=onedark)
