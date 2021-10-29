@@ -8,9 +8,9 @@ Here are some ideas to get you started:
 - 👁️‍🗨️ Im looking for a job at this moment.
 - 🔭 I’m currently working on HTML, CSS, JS
 - 🌱 I’m currently learning ReactJS, VueJS and Typescript
-- 💬 Ask me about Graphic Design: UI/UX, 2D, 3D, MoGraph, Video, VFX or any other kind.
+- 💬 Ask me about Graphic Design: UI/UX, 2D, 3D, MoGraph, Video Filming and Edit, VFX, Photography or any other kind.
 - 👯 I’m looking to collaborate on interesting projects of any kind.
-- 🤔 I’m looking for help with finding a job as Front-End Dev.
+- 🤔 I’m looking for help to find a job as Front-End Dev.
 - 📫 Reach me on my Discord: https://discord.gg/YdAPYgSq
 - ⚡ Fun fact: I make music sometimes.
 
