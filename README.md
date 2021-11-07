@@ -6,7 +6,7 @@
 Here are some ideas to get you started:
 -->
 - 👁️‍🗨️ Im looking for a job at this moment.
-- 🔭 I’m currently working on HTML, CSS, JS
+- 🔭 I’m currently working on HTML, CSS/SASS, JS/TS
 - 🌱 I’m currently learning ReactJS, VueJS and Typescript
 - 💬 Ask me about Graphic Design: UI/UX, 2D, 3D, MoGraph, Video Filming and Edit, VFX, Photography or any other kind.
 - 👯 I’m looking to collaborate on interesting projects of any kind.
