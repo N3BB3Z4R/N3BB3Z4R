@@ -11,7 +11,7 @@ Here are some ideas to get you started:
 - 💬 Ask me about Graphic Design: UI/UX, 2D, 3D, MoGraph, Video Filming and Edit, VFX, Photography or any other kind.
 - 👯 I’m looking to collaborate on interesting projects of any kind.
 - 🤔 I’m looking for help to find a job as Front-End Dev.
-- 📫 Reach me on my Discord: https://discord.gg/YdAPYgSq
+- 📫 Reach me on Discord: Nebe#8185
 - ⚡ Fun fact: I make music sometimes.
 
 Check my other works at https://www.nebeworks.com
