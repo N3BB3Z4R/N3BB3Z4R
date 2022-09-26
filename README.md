@@ -5,7 +5,7 @@
 
 Here are some ideas to get you started:
 -->
-- 👁️‍🗨️ I'm currently working at Zoega LTD. with ReactJS, Typescript, API REST, CSS/SASS/Tailwind, Vite, MJML, AWS, Figma, AGILE with Sprints on JIRA, and Bitbucket, CI/CD workflow.
+- 👁️‍🗨️ I'm currently working at Zoega LTD. as Intermediate FrontEnd Developer with ReactJS, Typescript, API REST, CSS/SASS/Tailwind, Vite, MJML, AWS, Figma, AGILE with Sprints on JIRA, and Bitbucket, CI/CD workflow.
 - 🔍 Open to interesting job offers.
 - 🔭 I’m currently using HTML, CSS/SASS, JS ES6+, ReactJS and Typescript
 - 🌱 I’m currently learning Hexagonal Arch, Patterns, Prisma, VueJS, Svelte...
