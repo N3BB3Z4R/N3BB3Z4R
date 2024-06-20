@@ -5,12 +5,11 @@
 
 Here are some ideas to get you started:
 -->
-- 👁️‍🗨️ I'm currently working at Zoega LTD. as Intermediate FrontEnd Developer with ReactJS, Typescript, API REST, Context, Router, Yup, Payment Processors like Paxum or SEPA/SWIFT, Biometrical verification with Veriff, CSS/SASS/Tailwind, Vite, MJML, AWS, Cognito and Lambda, Figma, AGILE with Sprints on JIRA, and Bitbucket, CI/CD workflow.
+- 👁️‍🗨️ I'm currently working at Zoega LTD. as Intermediate FrontEnd Developer with ReactJS, Typescript, API REST, Context, Router, Yup, VideoJS, Payment Processors like Paxum, Stripe or SEPA/SWIFT, stats with ChartJS, Biometrical verification with Veriff, CSS/SASS/Tailwind, Vite, MJML, AWS, Cognito and Lambda, Figma, AGILE with Sprints on JIRA, and Bitbucket, CI/CD workflow.
 - 🔍 Open to interesting job offers.
-- 🔭 I’m currently using HTML, CSS/SASS, JS ES6+, ReactJS and Typescript
-- 🌱 I’m currently learning Hexagonal Arch, Patterns, Prisma, VueJS, Svelte...
-- 💬 Ask me about Graphic Design: UI/UX, 2D, 3D, MoGraph, Video Filming and Edit, VFX, Photography or any other kind.
-- 👯 I’m looking to collaborate on interesting projects of any kind.
+- 🔭 I’m currently using HTML, CSS/SASS, JS ES6+, Typescript, ReactJS, NextJS.
+- 🌱 I’m currently playing with Rust, LLM, GAN...
+- 💬 You can also ask me about Graphic Design: UI/UX, 2D, 3D, MoGraph, Video Filming and Edit, VFX, Photography or any other kind.
 - 📫 Reach me on Discord: Nebe#8185
 - ⚡ Fun fact: I make music sometimes.
 
