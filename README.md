@@ -5,7 +5,7 @@
 
 Here are some ideas to get you started:
 -->
-- 👁️‍🗨️ I'm currently working at Zoega LTD. as Intermediate FrontEnd Developer with ReactJS, Typescript, API REST, Context, Router, Yup, VideoJS, Payment Processors like Paxum, Stripe or SEPA/SWIFT, stats with ChartJS, Biometrical verification with Veriff, CSS/SASS/Tailwind, Vite, MJML, AWS, Cognito and Lambda, Figma, AGILE with Sprints on JIRA, and Bitbucket, CI/CD workflow.
+- 👁️‍🗨️ I'm currently working at Zoega LTD. as Intermediate FrontEnd Developer with ReactJS, Typescript, API REST, Context, Router, Yup, VideoJS, Webcam, Payment Processors like Paxum, Stripe or SEPA/SWIFT, stats with ChartJS, Biometrical verification with Veriff, CSS/SASS/Tailwind, Vite, MJML, AWS, Cognito and Lambda, Figma, AGILE with Sprints on JIRA, and Bitbucket, CI/CD workflow.
 - 🔍 Open to interesting job offers.
 - 🔭 I’m currently using HTML, CSS/SASS, JS ES6+, Typescript, ReactJS, NextJS.
 - 🌱 I’m currently playing with Rust, LLM, GAN, Gaussian Splatting...
