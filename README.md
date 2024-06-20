@@ -9,7 +9,7 @@ Here are some ideas to get you started:
 - 🔍 Open to interesting job offers.
 - 🔭 I’m currently using HTML, CSS/SASS, JS ES6+, Typescript, ReactJS, NextJS.
 - 🌱 I’m currently playing with Rust, LLM, GAN...
-- 💬 You can also ask me about Graphic Design: UI/UX, 2D, 3D, MoGraph, Video Filming and Edit, VFX, Photography or any other kind.
+- 💬 You can ask me also about Graphic Design: UI/UX, 2D, 3D, MoGraph, Video Filming and Edit, VFX, Photography or any other kind.
 - 📫 Reach me on Discord: Nebe#8185
 - ⚡ Fun fact: I make music sometimes.
 
