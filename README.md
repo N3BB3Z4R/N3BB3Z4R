@@ -1,6 +1,6 @@
 # Welcome to my GitHub 👋
 
-![Mi perfil dinámico](./profile-stats.svg)
+![Profile](./profile-stats.svg)
 
                                           ##########                         
                                     ##################                       
