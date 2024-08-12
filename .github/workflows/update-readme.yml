@@ -1,0 +1,32 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Corre todos los días a la medianoche UTC
+  workflow_dispatch:  # Permite ejecutar manualmente la acción
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate SVG
+        run: node generateSvg.js
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add profile-stats.svg
+          git commit -m "Update dynamic SVG"
+          git push
