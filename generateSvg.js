@@ -44,6 +44,11 @@ const aboutMeLines = [
   "Check my other links at https://nebe.bio.link/"
 ];
 
+const nameAndTitleLines = [
+  "Name: Oscar 'Nebe' Abad aka N3BB3Z4R",
+  "Title: FrontEnd Developer",
+]
+
 // const detailedAsciiLines = [
 //   "                                                          ##**####****",
 //   "                                                       ##**#*#***********",
@@ -101,7 +106,7 @@ const aboutMeLines = [
 // ];
 
 const detailedAsciiLines = [
-"                                                         ░░░░░░░░░░░▒                             ",
+"                                                        ░░░░░░░░░░░▒                             ",
 "                                                      ░░░░░░░░░░░░░░▒▒▒░                          ",
 "                                                ░░░░░░░░░░░░░░░░░▒░░░░░▒▒                         ",
 "                                            ░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒                        ",
@@ -208,15 +213,18 @@ async function generateSvg() {
 
     // Generar las estadísticas de GitHub
     svgContent += `
-      <text x="30" y="470" fill="#FFD700" style="font-size: 18px; font-family: Arial, sans-serif;">
-        GitHub Stats:
-      </text>
-      <text x="30" y="500" fill="#FFFFFF" style="font-size: 16px; font-family: Arial, sans-serif;">
-        Repos: ${stats.publicRepos} | Stars: ${stats.stars} | Followers: ${stats.followers}
-      </text>
-      <text x="30" y="530" fill="#FFFFFF" style="font-size: 12px; font-family: Arial, sans-serif;">
-        Generated on: ${currentDateTime}
-      </text>
+    <text x="400" y="470" fill="#22ff22" style="font-size: 18px; font-family: Arial, sans-serif;">
+    GitHub Stats:
+    </text>
+    <text x="400" y="500" fill="#FFFFFF" style="font-size: 16px; font-family: Arial, sans-serif;">
+    Repos: ${stats.publicRepos} | Stars: ${stats.stars} | Followers: ${stats.followers}
+    </text>
+    <text x="400" y="530" fill="#FFFFFF" style="font-size: 12px; font-family: Arial, sans-serif;">
+    Generated on: ${currentDateTime}
+    </text>
+    <text x="400" y="560" fill="#FFFFFF" style="font-size: 12px; font-family: Arial, sans-serif;">
+      ${nameAndTitleLines}
+    </text>
     </svg>`;
 
     console.log("Contenido del SVG:", svgContent);
