@@ -75,7 +75,7 @@ async function fetchGithubStats(username) {
 // Función para generar SVG
 async function generateSvg() {
   try {
-    const username = 'tu-usuario-de-github'; // Cambia esto por tu nombre de usuario
+    const username = 'N3BB3Z4R'; // Cambia esto por tu nombre de usuario
     const stats = await fetchGithubStats(username);
     const currentDateTime = new Date().toLocaleString(); // Obtén la fecha y hora actual
 
