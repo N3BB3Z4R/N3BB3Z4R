@@ -30,6 +30,9 @@ jobs:
       - name: Add generated SVG file
         run: git add profile-stats.svg
 
+      - name: Show generated SVG file content
+        run: cat profile-stats.svg
+
       - name: Commit changes if needed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
