@@ -94,8 +94,6 @@ ${asciiArt}
   <text x="10" y="600" fill="#FFFFFF" style="font-size: 12px; font-family: Arial, sans-serif;">
     Generated on: ${currentDateTime}
   </text>
-  <image x="10" y="800" width="480" height="120" href="https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&theme=onedark&count_private=true" />
-  <image x="500" y="800" width="480" height="120" href="https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&theme=onedark" />
 </svg>`;
 
     console.log("Contenido del SVG:", svgContent);
