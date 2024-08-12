@@ -30,10 +30,9 @@ jobs:
       - name: Add generated SVG file
         run: git add profile-stats.svg
 
-      - name: Commit changes
-        if: success()
+      - name: Commit changes if needed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git commit -m "Update dynamic SVG"
-          git push
+          git diff --quiet && echo "No changes to commit" || git commit -m "Update dynamic SVG"
+          git push || echo "Nothing to push"

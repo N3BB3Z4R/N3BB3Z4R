@@ -48,28 +48,29 @@ const aboutMe = `
 
 // Función para obtener estadísticas de GitHub
 async function fetchGithubStats(username) {
-    const url = `https://api.github.com/users/${username}`;
-    const response = await fetch(url);
-    const data = await response.json();
+  const url = `https://api.github.com/users/${username}`; // URL completa
+  const response = await fetch(url);
+  const data = await response.json();
 
-    const publicRepos = data.public_repos;
-    const followers = data.followers;
+  const publicRepos = data.public_repos;
+  const followers = data.followers;
 
-    const reposUrl = data.repos_url;
-    const reposResponse = await fetch(reposUrl);
-    const reposData = await reposResponse.json();
+  const reposUrl = data.repos_url;
+  const reposResponse = await fetch(reposUrl); // URL completa
+  const reposData = await reposResponse.json();
 
-    const stars = reposData.reduce((acc, repo) => acc + repo.stargazers_count, 0);
+  const stars = reposData.reduce((acc, repo) => acc + repo.stargazers_count, 0);
 
-    return { publicRepos, followers, stars };
+  return { publicRepos, followers, stars };
 }
 
 // Función para generar SVG
 async function generateSvg() {
-    const username = 'tu-usuario-de-github'; // Cambia esto por tu nombre de usuario
-    const stats = await fetchGithubStats(username);
+  const username = 'tu-usuario-de-github'; // Cambia esto por tu nombre de usuario
+  const stats = await fetchGithubStats(username);
+  const currentDateTime = new Date().toLocaleString(); // Obtén la fecha y hora actual
 
-    const svgContent = `
+  const svgContent = `
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600">
   <rect width="100%" height="100%" fill="#151515"/>
   <text x="10" y="20" style="font-family: monospace;" fill="#FFFFFF">
@@ -81,11 +82,12 @@ ${asciiArt}
   <text x="10" y="400" fill="#FFFFFF" style="font-size: 14px; font-family: Arial, sans-serif;">
     ${aboutMe}
   </text>
-  <image x="10" y="800" width="480" height="120" href="https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&theme=onedark&count_private=true" />
-  <image x="500" y="800" width="480" height="120" href="https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&theme=onedark" />
+  <text x="10" y="600" fill="#FFFFFF" style="font-size: 12px; font-family: Arial, sans-serif;">
+    Generated on: ${currentDateTime}
+  </text>
 </svg>`;
 
-    fs.writeFileSync('profile-stats.svg', svgContent);
+  fs.writeFileSync('profile-stats.svg', svgContent);
 }
 
 // Ejecutar la función para generar el SVG
