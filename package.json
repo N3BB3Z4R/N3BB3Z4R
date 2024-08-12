@@ -1,0 +1,12 @@
+{
+  "name": "github-profile-svg",
+  "version": "1.0.0",
+  "description": "Make Github profile dynamic generation on svg",
+  "main": "generateSvg.js",
+  "scripts": {
+    "generate": "node generateSvg.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
