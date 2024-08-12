@@ -1,6 +1,7 @@
 # Welcome to my GitHub 👋
 
-![Profile](./profile-stats.svg)
+[![My stats](./profile-stats.svg)](https://www.nebeworks.com)
+
 
                                           ##########                         
                                     ##################                       
