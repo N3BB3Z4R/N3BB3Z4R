@@ -280,14 +280,14 @@ async function generateSvg() {
     const currentDateTime = new Date().toLocaleString();
 
     let svgContent = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="616">
-      <rect width="100%" height="100%" fill="#151515"/>`;
+      <rect width="100%" height="100%" fill="#15151500"/>`;
 
     // Generate the ASCII art block with `·` symbols hidden
     detailedAsciiLines.forEach((line, index) => {
       let updatedLine = '';
       for (let char of line) {
         if (char === '·') {
-          updatedLine += `<tspan fill="#151515">·</tspan>`;
+          updatedLine += `<tspan fill="#15151500">·</tspan>`;
         } else {
           updatedLine += char;
         }
@@ -300,7 +300,7 @@ async function generateSvg() {
       let updatedLine = '';
       for (let char of line) {
         if (char === '·') {
-          updatedLine += `<tspan fill="#151515">·</tspan>`;
+          updatedLine += `<tspan fill="#15151500">·</tspan>`;
         } else {
           updatedLine += char;
         }
