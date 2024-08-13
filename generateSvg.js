@@ -319,7 +319,7 @@ async function generateSvg() {
     <text x="650" y="500" fill="#FFFFFF" style="font-size: 16px; font-family: Arial, sans-serif;">
     Repos: ${stats.publicRepos} | Stars: ${stats.stars} | Followers: ${stats.followers}
     </text>
-    <text x="950" y="590" fill="#888888" style="font-size: 12px; font-family: Arial, sans-serif;">
+    <text x="980" y="580" fill="#888888" style="font-size: 12px; font-family: Arial, sans-serif;">
     Generated on: ${currentDateTime}
     </text>
     </svg>`;
