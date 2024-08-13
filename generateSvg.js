@@ -100,6 +100,29 @@ const emoji = [
 //   "%%%%%@@@@@@@@@@@@%####@@@@@@@@@%%@@@@@%%%##*****##%@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@%@@#***++++=+"
 // ];
 
+// const nameAscii = [
+  
+//  ▒█████    ██████  ▄████▄   ▄▄▄       ██▀███      ▄▄▄       ▄▄▄▄    ▄▄▄      ▓█████▄ 
+// ▒██▒  ██▒▒██    ▒ ▒██▀ ▀█  ▒████▄    ▓██ ▒ ██▒   ▒████▄    ▓█████▄ ▒████▄    ▒██▀ ██▌
+// ▒██░  ██▒░ ▓██▄   ▒▓█    ▄ ▒██  ▀█▄  ▓██ ░▄█ ▒   ▒██  ▀█▄  ▒██▒ ▄██▒██  ▀█▄  ░██   █▌
+// ▒██   ██░  ▒   ██▒▒▓▓▄ ▄██▒░██▄▄▄▄██ ▒██▀▀█▄     ░██▄▄▄▄██ ▒██░█▀  ░██▄▄▄▄██ ░▓█▄   ▌
+// ░ ████▓▒░▒██████▒▒▒ ▓███▀ ░ ▓█   ▓██▒░██▓ ▒██▒    ▓█   ▓██▒░▓█  ▀█▓ ▓█   ▓██▒░▒████▓ 
+// ░ ▒░▒░▒░ ▒ ▒▓▒ ▒ ░░ ░▒ ▒  ░ ▒▒   ▓▒█░░ ▒▓ ░▒▓░    ▒▒   ▓▒█░░▒▓███▀▒ ▒▒   ▓▒█░ ▒▒▓  ▒ 
+//   ░ ▒ ▒░ ░ ░▒  ░ ░  ░  ▒     ▒   ▒▒ ░  ░▒ ░ ▒░     ▒   ▒▒ ░▒░▒   ░   ▒   ▒▒ ░ ░ ▒  ▒ 
+// ░ ░ ░ ▒  ░  ░  ░  ░          ░   ▒     ░░   ░      ░   ▒    ░    ░   ░   ▒    ░ ░  ░ 
+//     ░ ░        ░  ░ ░            ░  ░   ░              ░  ░ ░            ░  ░   ░    
+//                   ░                                              ░            ░      
+
+                  
+//  ██████╗ ███████╗ ██████╗ █████╗ ██████╗      █████╗ ██████╗  █████╗ ██████╗ 
+// ██╔═══██╗██╔════╝██╔════╝██╔══██╗██╔══██╗    ██╔══██╗██╔══██╗██╔══██╗██╔══██╗
+// ██║   ██║███████╗██║     ███████║██████╔╝    ███████║██████╔╝███████║██║  ██║
+// ██║   ██║╚════██║██║     ██╔══██║██╔══██╗    ██╔══██║██╔══██╗██╔══██║██║  ██║
+// ╚██████╔╝███████║╚██████╗██║  ██║██║  ██║    ██║  ██║██████╔╝██║  ██║██████╔╝
+//  ╚═════╝ ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═════╝
+
+// ]
+
 const detailedAsciiLines = [
 "·························································░░░░░░░░░░░▒·····························",
 "······················································░░░░░░░░░░░░░░▒▒▒░··························",
@@ -229,6 +252,19 @@ async function fetchGithubStats(username) {
 
     const stars = reposData.reduce((acc, repo) => acc + (repo.stargazers_count || 0), 0);
 
+    // const totalCommits = reposData.reduce((acc, repo) => acc + (repo.size || 0), 0);
+
+    // const mostUsedLangs = reposData.reduce((acc, repo) => {
+    //   if (repo.language) {
+    //     acc[repo.language] = acc[repo.language] ? acc[repo.language] + 1 : 1;
+    //   }
+    //   acc = Object.entries(acc).sort((a, b) => b[1] - a[1]).reduce((acc, [lang, count]) => {
+    //     acc[lang] = count;
+    //     return acc;
+    //   }, {});
+    //   // return acc;
+    // }, {});
+
     console.log(`Fetched stats - Repos: ${publicRepos}, Stars: ${stars}, Followers: ${followers}`);
     return { publicRepos, followers, stars };
   } catch (error) {
@@ -283,7 +319,7 @@ async function generateSvg() {
     <text x="650" y="500" fill="#FFFFFF" style="font-size: 16px; font-family: Arial, sans-serif;">
     Repos: ${stats.publicRepos} | Stars: ${stats.stars} | Followers: ${stats.followers}
     </text>
-    <text x="650" y="530" fill="#888888" style="font-size: 12px; font-family: Arial, sans-serif;">
+    <text x="950" y="590" fill="#888888" style="font-size: 12px; font-family: Arial, sans-serif;">
     Generated on: ${currentDateTime}
     </text>
     </svg>`;
