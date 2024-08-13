@@ -1,6 +1,6 @@
 ## About Me
 
-[![My stats](./profile-stats.svg)](https://www.nebeworks.com)
+[![My stats](./profile-stats.svg)]
 
 <!-- - 👁️‍🗨️ I'm currently working at Zoega LTD. as FrontEnd Developer making a SPA Progressive Web Application with ReactJS, Typescript, API REST, Context, Router, Yup, VideoJS, Webcam recording, Payment Processors like Paxum, PXP, Stripe or SEPA/SWIFT, graphic stats with ChartJS, Drag and Drop, optimistic asynchronous, Biometrical verification with Veriff, CSS/SASS/Tailwind, Vite, MJML, AWS, Cognito and Lambda, Figma, AGILE with Sprints on JIRA, and Bitbucket, CI/CD workflow. Defining tasks amd coordinating Frontend team and requirements with Backend.
 - 🔍 Open to interesting job offers.
