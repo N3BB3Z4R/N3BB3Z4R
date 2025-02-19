@@ -7,7 +7,7 @@ const aboutMeLines = [
   "║··············································║",
   "║·┌ Im Oscar 'Nebe' Abad aka 'N3BB3Z4R'········║",
   "║·|············································║",
-  "║·├ I'm FrontEnd at Zoega LTD··················║",
+  "║·├ I'm FrontEnd at +Orange (Alten)············║",
   "║·├ Open to interesting job offers·············║",
   "║·├ Most of my repositories are hidden.········║",
   "║·├ Using HTML/CSS, JS/TS, React, and others···║",
